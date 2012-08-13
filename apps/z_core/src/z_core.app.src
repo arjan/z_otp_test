@@ -1,0 +1,13 @@
+{application, z_core,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager
+                 ]},
+  {mod, { z_core_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,13 @@
+{application, site_hello,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  z_core
+                 ]},
+  {mod, { site_hello_app, []}},
+  {env, []}
+ ]}.
