@@ -1,0 +1,13 @@
+{application, mod_test,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  z_core
+                 ]},
+  {mod, { mod_test, []}},
+  {env, []}
+ ]}.
